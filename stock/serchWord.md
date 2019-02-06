@@ -1,0 +1,59 @@
+【各セクションごとに調べた単語】
+■Linux基礎
+　●カーネル
+　　・アプリケーションが動作するための基本環境
+　　・OSの中核となるソフトウェア
+　●MBR(Master Root Record)
+　●init
+　●RPMファイル→分からず
+　●yum
+　●スワップパーティション
+　●マウント
+　●ディスククォータ
+■Linux基本操作
+　●コンフリクト
+　●インビテーション
+■git-flowとGitHub-flowの違い
+　●デプロイ
+　　・実際に実行できるようにすること。
+　　　ネットワークで利用できるようにアップロードする？
+■Docker
+　●コンテナ
+　●compose
+　●yamlファイル
+　●Gemfile
+　●heroku
+■モデリング
+　●One Fact in One Place
+　●コンパウンドキー
+　●集約
+　●多重度
+　●リソース
+　●イベント
+　●[正規化](https://qiita.com/To_BB/items/694c7428bf3bfa0a1930)
+■Ruby
+　●[rbenv](https://qiita.com/yunzeroin/items/33a51c805e60ed5eca0e)
+　●Gem
+　●Guard  
+　●Rspec
+　　テスト駆動開発で使われてきたTest::Unitを代替するフレームワーク
+　●Guand
+　●[FactoryBot_結局はRspec？](https://qiita.com/ryouzi/items/de7336e6175530723b30)
+　●アソシエーション
+　●[多対多のアソシエーション](https://qiita.com/Kohei_Kishimoto0214/items/cb9a3d3da57708fb52c9)
+■Vue.js
+　●CDN
+　●テンプレート構文
+　●算出プロパティ
+　●v-once ディレクティブ
+　●v-on
+　●コンポーネント
+　●
+　●
+【全体】
+　●デバッカー
+　●ログ出力
+　●デーモン
+　●pug
+　●ショルドマッチャー
+　●

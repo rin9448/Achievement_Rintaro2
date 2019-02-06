@@ -1,0 +1,28 @@
+#ディレクトリ作成コード
+--------------------
+mkdir taskPracticeVue
+cd taskPracticeVue
+touch Gemfile.lock
+touch Gemfile
+touch docker-compose.yml
+mkdir docker
+cd docker
+mkdir mysql
+mkdir rails
+cd rails
+touch Dockerfile
+cd ..
+cd mysql
+touch password.yml
+mkdir volumes
+cd ../..
+atom .
+--------------------
+# モデル作成コード
+rails g model User name:string email:string password:string
+rails g model Task name:string start_time:datetime end_time:datetime
+rails g model Project name:string
+rails g model Lane name:string
+rails g model Task_Assign user:references task:references
+rails g model Project_Assign user:references project:references
+rake db:migrate
